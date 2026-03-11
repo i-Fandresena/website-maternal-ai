@@ -22,34 +22,34 @@ export default function Header() {
         </div>
 
         {/* Center - Navigation Links */}
-        <div className="flex-1 flex items-center justify-center gap-6 sm:gap-8 mx-4 hidden md:flex">
+        <div className="flex-1 flex items-center justify-center gap-6 sm:gap-8 mx-4 hidden md:flex" style={{ fontFamily: 'Nohemi, sans-serif' }}>
           <Link 
             href="#histoire" 
-            className="text-[#1A1A1A] text-sm font-normal hover:text-[#E05A5A] transition-colors whitespace-nowrap"
+            className="text-[#1A1A1A] text-sm font-semibold hover:text-[#E05A5A] transition-colors whitespace-nowrap"
           >
             L'Histoire
           </Link>
           <Link 
             href="#solution" 
-            className="text-[#1A1A1A] text-sm font-normal hover:text-[#E05A5A] transition-colors whitespace-nowrap"
+            className="text-[#1A1A1A] text-sm font-semibold hover:text-[#E05A5A] transition-colors whitespace-nowrap"
           >
             La Solution
           </Link>
           <Link 
             href="#partenaires" 
-            className="text-[#1A1A1A] text-sm font-normal hover:text-[#E05A5A] transition-colors whitespace-nowrap"
+            className="text-[#1A1A1A] text-sm font-semibold hover:text-[#E05A5A] transition-colors whitespace-nowrap"
           >
             Partenariats
           </Link>
           <Link 
             href="#impact" 
-            className="text-[#1A1A1A] text-sm font-normal hover:text-[#E05A5A] transition-colors whitespace-nowrap"
+            className="text-[#1A1A1A] text-sm font-semibold hover:text-[#E05A5A] transition-colors whitespace-nowrap"
           >
             L'Impact
           </Link>
           <Link 
             href="#galerie" 
-            className="text-[#1A1A1A] text-sm font-normal hover:text-[#E05A5A] transition-colors whitespace-nowrap"
+            className="text-[#1A1A1A] text-sm font-semibold hover:text-[#E05A5A] transition-colors whitespace-nowrap"
           >
             Galerie
           </Link>

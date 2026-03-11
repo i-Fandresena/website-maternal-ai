@@ -5,22 +5,23 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   return (
-    <section className="py-16 md:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="py-16 md:py-16">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           {/* Left Content */}
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-                Et si on vous disait que vous pouvez, vous aussi, <span className="text-primary">sauver deux vies</span> ?
+          <div className="space-y-4">
+            <div className="space-y-10">
+              <h1 className="text-2xl md:text-5xl font-extrabold w-185">
+                Et si on vous disait que vous pouvez, 
+                vous aussi, <span className="text-primary">sauver deux vies ?</span> 
               </h1>
-              <p className="text-gray-700 text-base leading-relaxed">
-                Bienvenu dans le mouvement ! Un geste, une donnée, une réponse au bon moment. Parfois, c'est tout ce qu'il faut pour sauver deux vies. <span className="font-bold">MaternalAI</span> réinvente la grossesse en Afrique en transformant les données de santé maternelle en une prise de décision éclairée, avec une technologie attentive, une approche humaine et la force des communautés.
+              <p className="text-gray-700 w-180 font-regular">
+                Bienvenu dans le mouvement ! Un geste, une donnée, une réponse au bon moment. Parfois, c'est tout ce qu'il faut pour sauver deux vies. <span className="font-bold">Maternal.AI</span> réinvente la grossesse en Afrique en transformant les données de santé maternelle en une prise de décision éclairée, avec une technologie attentive, une approche humaine et la force des communautés.
               </p>
             </div>
 
             {/* Buttons */}
-            <div className="flex gap-4 items-center">
+            <div className="flex gap-4 items-center pt-5">
               <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 py-2 text-sm font-medium">
                 Rejoindre le mouvement
               </Button>
@@ -30,18 +31,18 @@ export default function HeroSection() {
             </div>
 
             {/* Statistics */}
-            <div className="flex gap-12 pt-8">
-              <div>
-                <div className="text-4xl font-bold text-gray-900">15+</div>
-                <p className="text-gray-600 text-sm mt-2">Volontaires actifs</p>
+            <div className="flex gap-16 pt-8">
+              <div className="text-center">
+                <div className="text-4xl font-extrabold text-gray-900">15+</div>
+                <p className="text-gray-600 text-sm mt-1">Volontaires actifs</p>
               </div>
-              <div>
-                <div className="text-4xl font-bold text-gray-900">5</div>
-                <p className="text-gray-600 text-sm mt-2">Régions couvertes</p>
+              <div className="text-center">
+                <div className="text-4xl font-extrabold text-gray-900">5</div>
+                <p className="text-gray-600 text-sm mt-1">Régions couvertes</p>
               </div>
-              <div>
-                <div className="text-4xl font-bold text-gray-900">1000+</div>
-                <p className="text-gray-600 text-sm mt-2">Femmes sensibilisées</p>
+              <div className="text-center">
+                <div className="text-4xl font-extrabold text-gray-900">1000+</div>
+                <p className="text-gray-600 text-sm mt-1">Femmes sensibilisées</p>
               </div>
             </div>
           </div>
